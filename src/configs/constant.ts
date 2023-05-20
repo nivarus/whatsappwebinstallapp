@@ -1,4 +1,4 @@
-export const APP_NAME = 'Zappy BOT';
+export const APP_NAME = 'Paral AI';
 export const PREFIXES = [
   'Zappy',
   'ZappyBot',
@@ -27,11 +27,11 @@ export const PREFIXES = [
 ];
 
 export const REMOVABLE_PREFIXES = [
-  'Zappy',
-  'ZappyBot',
-  'Zappy-Bot',
-  'Zappy Bot',
-  'zappy',
+  'Translate',
+  'AI',
+  'übersetzen',
+  'Übersetzen',
+  'translate',
   'zappybot',
   'zappy-bot',
   'zappy bot',
@@ -42,4 +42,4 @@ export const REMOVABLE_PREFIXES = [
 
 export const OPENAI_MODEL = 'gpt-4';
 
-export const DEFAULT_SYSTEM_MESSAGE = `You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.\nCurrent date: ${new Date().toISOString()}`;
+export const DEFAULT_SYSTEM_MESSAGE = `Hello my Friend, please ask me to help me with any translation in arab or anything else.\nCurrent date: ${new Date().toISOString()}`;
